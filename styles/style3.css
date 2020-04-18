@@ -1,0 +1,166 @@
+/*
+----- Color Palette ----- 
+Springtime Pastels
+https://www.color-hex.com/color-palette/90707
+Color	    Hex	        RGB
+Turquoise   #82cdcd	    (130,205,205)   skyblue
+Yellow      #eedd82	    (238,221,130)   khaki
+Green       #82cda8	    (130,205,168)   mediumaquamarine
+Purple      #82a8cd	    (130,168,205)   cornflowerblue
+Coral       #cd8282	    (205,130,130)   rosybrown
+Gray        #273d3d     (39,61,61)      darkslategray
+
+----- Fonts -----
+Headings: Proza Libre
+font-family: 'Proza Libre', sans-serif;
+https://fonts.google.com/specimen/Proza+Libre
+regular 400
+regular 400 Italic
+medium 500
+medium 500 Italic
+semi-bold 600
+semi-bold 600 Italic
+bold 700
+bold 700 Italic
+extra-bold 800
+extra-bold 800 Italic
+
+Text: Open Sans
+font-family: 'Open Sans', sans-serif;
+https://fonts.google.com/specimen/Open+Sans
+light 300
+light 300 Italic
+regular 400
+regular 400 Italic
+semi-bold 600
+semi-bold 600 Italic
+bold 700
+bold 700 Italic
+extra-bold 800
+extra-bold 800 Italic
+
+Alternate Text: Cardo
+font-family: 'Cardo', serif;
+https://fonts.google.com/specimen/Cardo
+regular 400
+regular 400 Italic
+bold 700
+*/
+
+body {
+    font-family: 'Open Sans', 'Cardo', serif, sans-serif;
+    color: #273d3d;
+    font-size: 1.6;
+    padding: 5px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Proza Libre', sans-serif;
+}
+
+a:link {
+    text-decoration: none;
+    color: #5b9999;
+}
+
+a:hover {
+    color: #cd8282;
+}
+
+a:active {
+    color: #eedd82;
+}
+
+a:visited {
+    color: #82a8cd;
+}
+
+p {
+    padding: 0 5px;
+}
+
+#box {
+    padding: 0 15px;
+    margin: 0 5px 25px 0;
+    border: 5px solid #82cdcd;
+}
+
+#color-palette, #styles {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 7px 0;
+    padding: 0;
+}
+
+#color-palette li, #styles li {
+    list-style-type: none;
+    width: 20%;
+    text-align: center;
+    margin: 0 5px;
+}
+
+.fas {
+    margin-right: 7px;
+}
+
+#color-palette a:link, #color-palette a:visited {
+    color: #273d3d;
+}
+
+#color-palette a:hover, #color-palette a:active {
+    color: white;
+}
+
+.turquoise-bg, .coral-bg, .yellow-bg, .purple-bg, .green-bg, .gray-bg {
+    border-radius: 10px;
+    padding: 15px;
+    margin: 0;
+}
+
+.turquoise {
+    color: #82cdcd;
+}
+
+.turquoise-bg {
+    background-color: #82cdcd;
+}
+
+.coral {
+    color: #cd8f89;
+}
+
+.coral-bg {
+    background-color: #cd8f89;
+}
+
+.purple {
+    color: #82a8cd;
+}
+
+.purple-bg {
+    background-color: #82a8cd;
+}
+
+.green {
+    color: #82cda8;
+}
+
+.green-bg {
+    background-color: #82cda8;
+}
+
+.yellow {
+    color: #eedd82;
+}
+
+.yellow-bg {
+    background-color: #eedd82;
+}
+
+.gray {
+    color: #273d3d;
+}
+
+.gray-bg {
+    background-color: #273d3d;
+}

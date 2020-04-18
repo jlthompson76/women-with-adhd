@@ -1,0 +1,159 @@
+/*
+----- Color Palette ----- 
+Red Lotus
+https://www.color-hex.com/color-palette/90734
+Color	    Hex	        RGB
+Red         #cc0000	    (204,0,0)
+Coral       #e57f7f	    (229,127,127)
+Turquoise   #00cccc	    (0,204,204)
+Green       #9bbb59	    (155,187,89)
+Blue        #31859c	    (49,133,156)
+Gray39      #636363     (99, 99, 99)
+Gray        #959595     (149, 149, 149)
+Gray65      #a6a6a6     (166, 166, 166)
+
+----- Font -----
+Muli
+Headings: Bold
+Text: Light
+font-family: 'Muli', sans-serif;
+https://fonts.google.com/specimen/Muli
+extra-light 200
+extra-light 200 Italic
+light 300
+light 300 Italic
+regular 400
+regular 400 Italic
+medium 500
+medium 500 Italic
+semi-bold 600
+semi-bold 600 Italic
+bold 700
+bold 700 Italic
+extra-bold 800
+extra-bold 800 Italic
+black 900
+black 900 Italic
+*/
+
+body {
+    font-family: 'Muli', sans-serif;
+    font-weight: 300;
+    color: #636363;
+    font-size: 1.6;
+    padding: 5px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    /* font-family: 'Proza Libre', sans-serif; */
+    font-family: 'Muli', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+    color: #cc0000;
+}
+
+a:hover {
+    color: #cd8282;
+}
+
+a:active {
+    color: #eedd82;
+}
+
+a:visited {
+    color: #31859c;
+}
+
+p {
+    padding: 0 5px;
+}
+
+#box {
+    padding: 0 15px;
+    margin: 0 5px 25px 0;
+    border: 5px solid #cc0000;
+}
+
+#color-palette, #styles {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 7px 0;
+    padding: 0;
+}
+
+#color-palette li, #styles li {
+    list-style-type: none;
+    width: 20%;
+    text-align: center;
+    margin: 0 5px;
+}
+
+.fas {
+    margin-right: 7px;
+}
+
+#color-palette a:link, #color-palette a:visited {
+    color: white;
+}
+
+#color-palette a:hover, #color-palette a:active {
+    color: #00cccc;
+}
+
+.red-bg, .coral-bg, .turquoise-bg, .green-bg, .blue-bg, .gray-bg {
+    border-radius: 10px;
+    padding: 15px;
+    margin: 0;
+}
+
+.red {
+    color: #cc0000;
+}
+
+.red-bg {
+    background-color: #cc0000;
+}
+
+.turquoise {
+    color: #00cccc;
+}
+
+.turquoise-bg {
+    background-color: #00cccc;
+}
+
+.coral {
+    color: #e57f7f;
+}
+
+.coral-bg {
+    background-color: #e57f7f;
+}
+
+.blue {
+    color: #31859c;
+}
+
+.blue-bg {
+    background-color: #31859c;
+}
+
+.green {
+    color: #9bbb59;
+}
+
+.green-bg {
+    background-color: #9bbb59;
+}
+
+.gray {
+    color: #636363;
+}
+
+.gray-bg {
+    background-color: #636363;
+}

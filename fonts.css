@@ -1,0 +1,180 @@
+/*
+----- Google Fonts URL -----
+<link href="https://fonts.googleapis.com/css?family=font1|font2&display=swap" rel="stylesheet">
+
+!  Fonts for Headings
+
+----- Marcellus SC -----
+font-family: 'Marcellus SC', serif;
+https://fonts.google.com/specimen/Marcellus+SC
+regular 400
+
+----- Lobster -----
+font-family: 'Lobster', cursive;
+https://fonts.google.com/specimen/Lobster
+regular 400
+
+----- Proza Libre -----
+font-family: 'Proza Libre', sans-serif;
+https://fonts.google.com/specimen/Proza+Libre
+regular 400
+regular 400 Italic
+medium 500
+medium 500 Italic
+semi-bold 600
+semi-bold 600 Italic
+bold 700
+bold 700 Italic
+extra-bold 800
+extra-bold 800 Italic
+
+! Fonts for Body Text
+
+----- EB Garamond -----
+font-family: 'EB Garamond', sans-serif;
+https://fonts.google.com/specimen/EB+Garamond
+regular 400
+regular 400 Italic
+medium 500
+medium 500 Italic
+semi-bold 600
+semi-bold 600 Italic
+bold 700
+bold 700 Italic
+extra-bold 800
+extra-bold 800 Italic
+
+----- Crimson Text -----
+font-family: 'Crimson Text', serif;
+https://fonts.google.com/specimen/Crimson+Text
+regular 400
+regular 400 Italic
+semi-bold 600
+semi-bold 600 Italic
+bold 700
+bold 700 Italic
+
+----- Open Sans -----
+font-family: 'Open Sans', sans-serif;
+https://fonts.google.com/specimen/Open+Sans
+light 300
+light 300 Italic
+regular 400
+regular 400 Italic
+semi-bold 600
+semi-bold 600 Italic
+bold 700
+bold 700 Italic
+extra-bold 800
+extra-bold 800 Italic
+
+----- Cardo -----
+font-family: 'Cardo', serif;
+https://fonts.google.com/specimen/Cardo
+regular 400
+regular 400 Italic
+bold 700
+
+----- Muli -----
+font-family: 'Muli', sans-serif;
+https://fonts.google.com/specimen/Muli
+extra-light 200
+extra-light 200 Italic
+light 300
+light 300 Italic
+regular 400
+regular 400 Italic
+medium 500
+medium 500 Italic
+semi-bold 600
+semi-bold 600 Italic
+bold 700
+bold 700 Italic
+extra-bold 800
+extra-bold 800 Italic
+black 900
+black 900 Italic
+
+----- Ubuntu -----
+font-family: 'Ubuntu', sans-serif;
+https://fonts.google.com/specimen/Ubuntu
+light 300
+light 300 Italic
+regular 400
+regular 400 Italic
+medium 500
+medium 500 Italic
+bold 700
+bold 700 Italic
+
+----- Arimo -----
+font-family: 'Arimo', sans-serif;
+https://fonts.google.com/specimen/Arimo
+regular 400
+regular 400 Italic
+bold 700
+bold 700 Italic
+
+----- Hind -----
+font-family: 'Hind', sans-serif;
+https://fonts.google.com/specimen/Hind
+Hind
+light 300
+regular 400
+medium 500
+semi-bold 600
+bold 700
+*/
+
+body {
+    font-family: 'EB Garamond', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Amiri', serif;
+    font-family: 'Crimson Text', serif;
+    font-family: 'Crimson Pro', serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Cardo', serif;
+    font-family: 'Cormorant', serif;
+    font-family: 'Bellefair', serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Montaga', serif;
+    font-family: 'Della Respira', serif;
+    font-family: 'Forum', cursive;
+    font-family: 'Overlock', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Jacques Francois', serif;
+    font-family: 'Averia Serif Libre', cursive;
+    font-family: 'Averia Sans Libre', cursive;
+    font-family: 'Averia Libre', cursive;
+    font-family: 'Averia Gruesa Libre', cursive;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Proza Libre', sans-serif;
+    font-family: 'Crimson Text', serif;
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Montaga', serif;
+    font-family: 'Cinzel Decorative', cursive;
+    font-family: 'EB Garamond', sans-serif;
+    font-family: 'Overlock', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Simonetta', cursive;
+    font-family: 'Overlock SC', cursive;
+    font-family: 'Marcellus SC', serif;
+    font-family: 'Alegreya', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Mirza', cursive;
+    font-family: 'Averia Serif Libre', cursive;
+    font-family: 'Averia Sans Libre', cursive;
+    font-family: 'Averia Libre', cursive;
+    font-family: 'Averia Gruesa Libre', cursive;
+}
