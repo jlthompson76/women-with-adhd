@@ -2,7 +2,11 @@
 ----- Google Fonts URL -----
 <link href="https://fonts.googleapis.com/css?family=font1|font2&display=swap" rel="stylesheet">
 
-!  Fonts for Headings
+----- Fonts for Headings -----
+Marcellus SC
+Lobster
+Proza Libre
+Alegreya SC
 
 ----- Marcellus SC -----
 font-family: 'Marcellus SC', serif;
@@ -27,8 +31,6 @@ bold 700
 bold 700 Italic
 extra-bold 800
 extra-bold 800 Italic
-
-! Fonts for Body Text
 
 ----- EB Garamond -----
 font-family: 'EB Garamond', sans-serif;
@@ -118,15 +120,64 @@ bold 700 Italic
 ----- Hind -----
 font-family: 'Hind', sans-serif;
 https://fonts.google.com/specimen/Hind
-Hind
 light 300
 regular 400
 medium 500
 semi-bold 600
 bold 700
+
+----- Alegreya -----
+font-family: 'Alegreya', serif;
+https://fonts.google.com/specimen/Alegreya
+regular 400
+regular 400 Italic
+medium 500
+medium 500 Italic
+bold 700
+bold 700 Italic
+extra-bold 800
+extra-bold 800 Italic
+black 900
+black 900 Italic
+
+----- Alegreya Sans -----
+font-family: 'Alegreya Sans', sans-serif;
+https://fonts.google.com/specimen/Alegreya+Sans
+thin 100
+thin 100 Italic
+light 300
+light 300 Italic
+regular 400
+regular 400 Italic
+medium 500
+medium 500 Italic
+bold 700
+bold 700 Italic
+extra-bold 800
+extra-bold 800 Italic
+black 900
+black 900 Italic
+
+----- Alegreya SC -----
+font-family: 'Alegreya SC', serif;
+https://fonts.google.com/specimen/Alegreya+SC
+regular 400
+regular 400 Italic
+medium 500
+medium 500 Italic
+bold 700
+bold 700 Italic
+extra-bold 800
+extra-bold 800 Italic
+black 900
+black 900 Italic
+
 */
 
 body {
+    font-family: 'Alegreya SC', serif;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Alegreya', serif;
     font-family: 'EB Garamond', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Amiri', serif;
@@ -155,6 +206,9 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
+    font-family: 'Alegreya SC', serif;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Alegreya', serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Proza Libre', sans-serif;
     font-family: 'Crimson Text', serif;
@@ -170,7 +224,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Simonetta', cursive;
     font-family: 'Overlock SC', cursive;
     font-family: 'Marcellus SC', serif;
-    font-family: 'Alegreya', serif;
     font-family: 'Playfair Display', serif;
     font-family: 'Mirza', cursive;
     font-family: 'Averia Serif Libre', cursive;

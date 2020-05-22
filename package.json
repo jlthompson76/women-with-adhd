@@ -1,0 +1,28 @@
+{
+  "name": "codesquad-personal-project",
+  "version": "1.0.0",
+  "description": "CodeSquad Personal Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "tbd"
+  },
+  "keywords": [
+    "CodeSquad",
+    "personal project"
+  ],
+  "author": "Jamie L. Thompson",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.7"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
