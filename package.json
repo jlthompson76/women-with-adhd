@@ -2,8 +2,9 @@
   "name": "codesquad-personal-project",
   "version": "1.0.0",
   "description": "CodeSquad Personal Project",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "nodemon app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -12,17 +13,26 @@
   },
   "keywords": [
     "CodeSquad",
-    "personal project"
+    "personal project",
+    "ADHD",
+    "Attention Deficit Hyperactivity Disorder",
+    "mental health",
+    "psychology"
   ],
   "author": "Jamie L. Thompson",
   "license": "ISC",
+  "engines": {
+    "node": "^12.14.1"
+  },
   "dependencies": {
     "ejs": "^3.1.3",
     "express": "^4.17.1",
+    "fs": "0.0.1-security",
     "mongodb": "^3.5.7"
   },
   "devDependencies": {
     "dotenv": "^8.2.0",
+    "ejs-lint": "^1.1.0",
     "nodemon": "^2.0.4"
   }
 }

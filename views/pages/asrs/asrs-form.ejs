@@ -1,0 +1,292 @@
+<%- include ('../../partials/meta') %>
+  <meta name="description" content="CodeSquad Personal Project">
+  <meta name="keywords" content="ADHD, ADD, mental health, psychology, ASRS">
+<%- include ('../../partials/css') %>
+  <title>Adult ADHD Self-Report Scale | CodeSquad Personal Project | Jamie L. Thompson</title>
+</head>
+<body>
+
+  <header>
+      <%- include ('../../partials/nav') %>
+  </header>
+
+  <main>
+    <h1>Adult ADHD Self-Report Scale (ASRS-v1.1) Symptom Checklist</h1>
+
+    <p>Please answer the questions below, rating yourself on each of the criteria shown using the scale on the right side of the page. As you answer each question, place an X in the box that best describes how you have felt and conducted yourself over the past six months.</p>
+
+    <form action="/asrs/submit" method="POST" id="asrs">
+          
+      <!-- Name -->
+      <label for="name">Name: </label>
+      <input type="text" id="name" name="name">
+
+      <!-- Date -->
+      <label for="date">Date: </label>
+      <input type="date" id="date" name="date">
+
+      <!-- Part A -->
+      <fieldset class="part-a">
+      <legend>Part A</legend>
+
+        <!-- Question #1 -->
+        </p><label for="question-1">1.) How often do you have trouble wrapping up the final details of a project, once the challenging parts have been done?</label><br>
+        <input type="radio" id="never" name="question-1" value="never">
+        <label for="never">Never</label>
+        <input type="radio" id="rarely" name="question-1" value="rarely">
+        <label for="rarely">Rarely</label>
+        <input type="radio" id="sometimes" name="question-1" value="sometimes">
+        <label for="sometimes">Sometimes</label>
+        <input type="radio" id="often" name="question-1" value="often">
+        <label for="often">Often</label>
+        <input type="radio" id="very-often" name="question-1" value="very-often">
+        <label for="very-often">Very Often</label></p>
+
+        <!-- Question #2 -->
+        <p><label for="question-2">2.) How often do you have difficulty getting things in order when you have to do a task that requires organization?</label><br>
+        <input type="radio" id="never" name="question-2" value="never">
+        <label for="never">Never</label>
+        <input type="radio" id="rarely" name="question-2" value="rarely">
+        <label for="rarely">Rarely</label>
+        <input type="radio" id="sometimes" name="question-2" value="sometimes">
+        <label for="sometimes">Sometimes</label>
+        <input type="radio" id="often" name="question-2" value="often">
+        <label for="often">Often</label>
+        <input type="radio" id="very-often" name="question-2" value="very-often">
+        <label for="very-often">Very Often</label></p>
+
+        <!-- Question #3 -->
+        <p><label for="question-3">3.) How often do you have problems remembering appointments or obligations?</label><br>
+        <input type="radio" id="never" name="question-3" value="never">
+        <label for="never">Never</label>
+        <input type="radio" id="rarely" name="question-3" value="rarely">
+        <label for="rarely">Rarely</label>
+        <input type="radio" id="sometimes" name="question-3" value="sometimes">
+        <label for="sometimes">Sometimes</label>
+        <input type="radio" id="often" name="question-3" value="often">
+        <label for="often">Often</label>
+        <input type="radio" id="very-often" name="question-3" value="very-often">
+        <label for="very-often">Very Often</label></p>
+
+        <!-- Question #4 -->
+        <p><label for="question-4">4.) When you have a task that requires a lot of thought, how often do you avoid or delay getting started?</label><br>
+        <input type="radio" id="never" name="question-4" value="never">
+        <label for="never">Never</label>
+        <input type="radio" id="rarely" name="question-4" value="rarely">
+        <label for="rarely">Rarely</label>
+        <input type="radio" id="sometimes" name="question-4" value="sometimes">
+        <label for="sometimes">Sometimes</label>
+        <input type="radio" id="often" name="question-4" value="often">
+        <label for="often">Often</label>
+        <input type="radio" id="very-often" name="question-4" value="very-often">
+        <label for="very-often">Very Often</label></p>
+
+        <!-- Question #5 -->
+        <p><label for="question-5">5.) How often do you fidget or squirm with your hands or feet when you have to sit down for a long time?</label><br>
+        <input type="radio" id="never" name="question-5" value="never">
+        <label for="never">Never</label>
+        <input type="radio" id="rarely" name="question-5" value="rarely">
+        <label for="rarely">Rarely</label>
+        <input type="radio" id="sometimes" name="question-5" value="sometimes">
+        <label for="sometimes">Sometimes</label>
+        <input type="radio" id="often" name="question-5" value="often">
+        <label for="often">Often</label>
+        <input type="radio" id="very-often" name="question-5" value="very-often">
+        <label for="very-often">Very Often</label></p>
+
+        <!-- Question #6 -->
+        <p><label for="question-6">6.) How often do you feel overly active and compelled to do things, like you were driven by a motor?</label><br>
+        <input type="radio" id="never" name="question-6" value="never">
+        <label for="never">Never</label>
+        <input type="radio" id="rarely" name="question-6" value="rarely">
+        <label for="rarely">Rarely</label>
+        <input type="radio" id="sometimes" name="question-6" value="sometimes">
+        <label for="sometimes">Sometimes</label>
+        <input type="radio" id="often" name="question-6" value="often">
+        <label for="often">Often</label>
+        <input type="radio" id="very-often" name="question-6" value="very-often">
+        <label for="very-often">Very Often</label></p>
+
+      </fieldset>
+      <!-- End of Part A -->
+
+      <!-- Part B -->
+      <fieldset class="part-b">
+      <legend>Part B</legend>
+
+        <!-- Question #7 -->
+        <p><label for="question-7">7.) How often do you make careless mistakes when you have to work on a boring or difficult project?</label><br>
+        <input type="radio" id="never" name="question-7" value="never">
+        <label for="never">Never</label>
+        <input type="radio" id="rarely" name="question-7" value="rarely">
+        <label for="rarely">Rarely</label>
+        <input type="radio" id="sometimes" name="question-7" value="sometimes">
+        <label for="sometimes">Sometimes</label>
+        <input type="radio" id="often" name="question-7" value="often">
+        <label for="often">Often</label>
+        <input type="radio" id="very-often" name="question-7" value="very-often">
+        <label for="very-often">Very Often</label></p>
+
+        <!-- Question #8 -->
+        <p><label for="question-8">8.) How often do you have difficulty keeping your attention when you are doing boring or repetitive work?</label><br>
+        <input type="radio" id="never" name="question-8" value="never">
+        <label for="never">Never</label>
+        <input type="radio" id="rarely" name="question-8" value="rarely">
+        <label for="rarely">Rarely</label>
+        <input type="radio" id="sometimes" name="question-8" value="sometimes">
+        <label for="sometimes">Sometimes</label>
+        <input type="radio" id="often" name="question-8" value="often">
+        <label for="often">Often</label>
+        <input type="radio" id="very-often" name="question-8" value="very-often">
+        <label for="very-often">Very Often</label></p>
+
+        <!-- Question #9 -->
+        <p><label for="question-9">9.) How often do you have difficulty concentrating on what people say to you, even when they are speaking to you directly?</label><br>
+        <input type="radio" id="never" name="question-9" value="never">
+        <label for="never">Never</label>
+        <input type="radio" id="rarely" name="question-9" value="rarely">
+        <label for="rarely">Rarely</label>
+        <input type="radio" id="sometimes" name="question-9" value="sometimes">
+        <label for="sometimes">Sometimes</label>
+        <input type="radio" id="often" name="question-9" value="often">
+        <label for="often">Often</label>
+        <input type="radio" id="very-often" name="question-9" value="very-often">
+        <label for="very-often">Very Often</label></p>
+
+        <!-- Question #10 -->
+        <p><label for="question-10">10.) How often do you misplace or have difficulty finding things at home or at work?</label><br>
+        <input type="radio" id="never" name="question-10" value="never">
+        <label for="never">Never</label>
+        <input type="radio" id="rarely" name="question-10" value="rarely">
+        <label for="rarely">Rarely</label>
+        <input type="radio" id="sometimes" name="question-10" value="sometimes">
+        <label for="sometimes">Sometimes</label>
+        <input type="radio" id="often" name="question-10" value="often">
+        <label for="often">Often</label>
+        <input type="radio" id="very-often" name="question-10" value="very-often">
+        <label for="very-often">Very Often</label></p>
+
+        <!-- Question #11 -->
+        <p><label for="question-11">11.) How often are you distracted by activity or noise around you?</label><br>
+        <input type="radio" id="never" name="question-11" value="never">
+        <label for="never">Never</label>
+        <input type="radio" id="rarely" name="question-11" value="rarely">
+        <label for="rarely">Rarely</label>
+        <input type="radio" id="sometimes" name="question-11" value="sometimes">
+        <label for="sometimes">Sometimes</label>
+        <input type="radio" id="often" name="question-11" value="often">
+        <label for="often">Often</label>
+        <input type="radio" id="very-often" name="question-11" value="very-often">
+        <label for="very-often">Very Often</label></p>
+
+        <!-- Question #12 -->
+        <p><label for="question-12">12.) How often do you leave your seat in meetings or in other situations in which you are expected to stay seated?</label><br>
+        <input type="radio" id="never" name="question-12" value="never">
+        <label for="never">Never</label>
+        <input type="radio" id="rarely" name="question-12" value="rarely">
+        <label for="rarely">Rarely</label>
+        <input type="radio" id="sometimes" name="question-12" value="sometimes">
+        <label for="sometimes">Sometimes</label>
+        <input type="radio" id="often" name="question-12" value="often">
+        <label for="often">Often</label>
+        <input type="radio" id="very-often" name="question-12" value="very-often">
+        <label for="very-often">Very Often</label></p>
+
+        <!-- Question #13 -->
+        <p><label for="question-13">13.) How often do you feel restless or fidgety?</label><br>
+        <input type="radio" id="never" name="question-13" value="never">
+        <label for="never">Never</label>
+        <input type="radio" id="rarely" name="question-13" value="rarely">
+        <label for="rarely">Rarely</label>
+        <input type="radio" id="sometimes" name="question-13" value="sometimes">
+        <label for="sometimes">Sometimes</label>
+        <input type="radio" id="often" name="question-13" value="often">
+        <label for="often">Often</label>
+        <input type="radio" id="very-often" name="question-13" value="very-often">
+        <label for="very-often">Very Often</label>
+
+        <!-- Question #14 -->
+        <p><label for="question-14">14.) How often do you have difficulty unwinding and relaxing when you have time to yourself?</label><br>
+        <input type="radio" id="never" name="question-14" value="never">
+        <label for="never">Never</label>
+        <input type="radio" id="rarely" name="question-14" value="rarely">
+        <label for="rarely">Rarely</label>
+        <input type="radio" id="sometimes" name="question-14" value="sometimes">
+        <label for="sometimes">Sometimes</label>
+        <input type="radio" id="often" name="question-14" value="often">
+        <label for="often">Often</label>
+        <input type="radio" id="very-often" name="question-14" value="very-often">
+        <label for="very-often">Very Often</label></p>
+
+        <!-- Question #15 -->
+        <p><label for="question-15">15.) How often do you find yourself talking too much when you are in social situations?</label><br>
+        <input type="radio" id="never" name="question-15" value="never">
+        <label for="never">Never</label>
+        <input type="radio" id="rarely" name="question-15" value="rarely">
+        <label for="rarely">Rarely</label>
+        <input type="radio" id="sometimes" name="question-15" value="sometimes">
+        <label for="sometimes">Sometimes</label>
+        <input type="radio" id="often" name="question-15" value="often">
+        <label for="often">Often</label>
+        <input type="radio" id="very-often" name="question-15" value="very-often">
+        <label for="very-often">Very Often</label>
+
+        <!-- Question #16 -->
+        <p><label for="question-16">16.) When you're in a conversation, how often do you find yourself finishing the sentences of the people you are talking to, before they can finish it themselves?</label><br>
+        <input type="radio" id="never" name="question-16" value="never">
+        <label for="never">Never</label>
+        <input type="radio" id="rarely" name="question-16" value="rarely">
+        <label for="rarely">Rarely</label>
+        <input type="radio" id="sometimes" name="question-16" value="sometimes">
+        <label for="sometimes">Sometimes</label>
+        <input type="radio" id="often" name="question-16" value="often">
+        <label for="often">Often</label>
+        <input type="radio" id="very-often" name="question-16" value="very-often">
+        <label for="very-often">Very Often</label></p>
+
+        <!-- Question #17 -->
+        <p><label for="question-17">17.) How often do you have difficulty waiting your turn in situations when turn taking is required?</label><br>
+        <input type="radio" id="never" name="question-17" value="never">
+        <label for="never">Never</label>
+        <input type="radio" id="rarely" name="question-17" value="rarely">
+        <label for="rarely">Rarely</label>
+        <input type="radio" id="sometimes" name="question-17" value="sometimes">
+        <label for="sometimes">Sometimes</label>
+        <input type="radio" id="often" name="question-17" value="often">
+        <label for="often">Often</label>
+        <input type="radio" id="very-often" name="question-17" value="very-often">
+        <label for="very-often">Very Often</label></p>
+
+        <!-- Question #18 -->
+        <p><label for="question-18">18.) How often do you interrupt others when they are busy?</label><br>
+        <input type="radio" id="never" name="question-18" value="never">
+        <label for="never">Never</label>
+        <input type="radio" id="rarely" name="question-18" value="rarely">
+        <label for="rarely">Rarely</label>
+        <input type="radio" id="sometimes" name="question-18" value="sometimes">
+        <label for="sometimes">Sometimes</label>
+        <input type="radio" id="often" name="question-18" value="often">
+        <label for="often">Often</label>
+        <input type="radio" id="very-often" name="question-18" value="very-often">
+        <label for="very-often">Very Often</label></p>
+
+      <!-- End of Part B-->
+      </fieldset>
+
+      <!-- Submit Button -->
+      <p><input type="submit" value="Submit"></p>
+
+      <!-- Reset Button -->
+      <!-- Coming Soon! -->
+
+    </form>
+  </main>
+
+  <!-- Footer -->
+<%- include ('../../partials/footer') %>
+
+  <!-- JavaScript -->
+<%- include ('../../partials/script') %>
+
+</body>
+</html>
