@@ -35,6 +35,47 @@ router.get('/living-with-adhd', (req, res) => {
   res.render('pages/living-with-adhd');
 });
 
+// Living with ADHD - Work
+router.get('/work', (req, res) => {
+  console.log('ADHD @ Work page requested');
+  res.render('pages/work');
+});
+
+// Living with ADHD - School
+router.get('/school', (req, res) => {
+  console.log('ADHD @ School page requested');
+  res.render('pages/school');
+});
+
+// Living with ADHD - Home
+router.get('/home', (req, res) => {
+  console.log('ADHD @ Home page requested');
+  res.render('pages/home');
+});
+
+// Living with ADHD - Relationships
+router.get('/relationships', (req, res) => {
+  console.log('Relationships page requested');
+  res.render('pages/relationships');
+
+});// Living with ADHD - Parenting
+router.get('/parenting', (req, res) => {
+  console.log('Parenting page requested');
+  res.render('pages/parenting');
+});
+
+// Living with ADHD - Health
+router.get('/health', (req, res) => {
+  console.log('Health page requested');
+  res.render('pages/health');
+});
+
+// Living with ADHD - Finances
+router.get('/finances', (req, res) => {
+  console.log('Finances page requested');
+  res.render('pages/finances');
+});
+
 // Treatments
 router.get('/treatments', (req, res) => {
   console.log('Treatments page requested');
