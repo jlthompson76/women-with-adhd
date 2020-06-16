@@ -240,6 +240,10 @@ footer {
   font-weight: bold;
 }
 
+.footer a:hover {
+  color: #ffec3a;
+}
+
 .footer a:active {
   color: #ffec3a;
 }
