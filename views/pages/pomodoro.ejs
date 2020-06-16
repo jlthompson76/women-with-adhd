@@ -1,0 +1,48 @@
+<%- include ('../partials/meta') %>
+  <meta name="description" content="Pomodoro timer to help women with ADHD be more productive">
+  <meta name="keywords" content="ADHD, ADD, mental health, psychology, productivity, Pomodoro, timer">
+<%- include ('../partials/css') %>
+  <link rel="stylesheet" type="text/css" href="pomodoro.css">
+  <title>Pomodoro Timer | Women with ADHD: A Website to Educate &amp; Empower Women with Attention Deficit/Hyperactivity Disorder</title>
+</head>
+<body>
+  <header>
+<%- include ('../partials/nav') %>
+  </header>
+
+  <main id="pomodoro">
+    <p id="work" class="label">Work:</p>
+    <p id="break" class="label">Break:</p>
+    <p id="cycles" class="label">Cycles:</p>
+
+    <!-- Work Timer -->
+    <div id="work-timer" class="timer">
+      <p id="work-minutes">25</p>
+      <p class="semicolon">:</p>
+      <p id="work-seconds">00</p>
+    </div>
+
+    <p id="counter" class="timer">0</p>
+
+    <!-- Break Timer -->
+    <div id="break-timer" class="timer">
+      <p id="break-minutes">5</p>
+      <p class="semicolon">:</p>
+      <p id="break-seconds">00</p>
+    </div>
+
+    <button id="start" class="btn">Start</button>
+    <button id="pause" class="btn">Pause</button>
+    <button id="reset" class="btn">Reset</button>
+
+  </main>
+
+  <!-- Footer -->
+<%- include ('../partials/footer') %>
+
+  <!-- JavaScript -->
+<%- include ('../partials/script') %>
+  <script src="pomodoro.js"></script>
+
+</body>
+</html>

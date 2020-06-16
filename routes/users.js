@@ -29,6 +29,7 @@ router.use(body_parser.urlencoded({ extended: true }));
 
 // Configures database
 let db_handler;
+
 // Database environment variables (stored in .env file)
 const DB_URL = process.env.DB_URL;
 const DB_NAME = process.env.DB_NAME;
@@ -103,7 +104,7 @@ mongo_client.connect(DB_URL, { useNewUrlParser: true, useUnifiedTopology: true }
   if (err) {
     console.log(`Error: ${err}`);
   } else {
-    console.log(`Connected to ${DB_NAME} database, ${COLLECTION_NAME} collection`);
+    console.log(`Connected to ${DB_NAME}.${COLLECTION_NAME}`);
     db_handler = db_client.db(DB_NAME);
   };
 });

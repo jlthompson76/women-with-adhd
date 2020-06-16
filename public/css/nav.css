@@ -1,0 +1,52 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5em;
+}
+
+.nav-home {
+  background-color: #fe0000;
+  padding: 15px 25px;
+  flex: 1;
+}
+
+.nav-home a:link {
+  color: white;
+}
+
+.nav-home a:visited {
+  color: white;
+}
+
+.nav-home a:hover {
+  color: #ffec3a;
+}
+
+.nav-home a:active {
+  color: #ffc989;
+}
+
+.nav-other {
+  background-color: #00aeed;
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 6;
+}
+
+.nav-other a:link {
+  color: white;
+}
+
+.nav-other a:visited {
+  color: white;
+}
+
+.nav-other a:hover {
+  color: #ffec3a;
+}
+
+.nav-other a:active {
+  color: #fe0000;
+}

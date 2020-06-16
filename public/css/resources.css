@@ -1,0 +1,46 @@
+.books-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.single-book {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 15px;
+  flex-basis: 15%;
+  box-sizing: border-box;
+}
+
+.book-cover {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.book-cover img {
+  width: 225px;
+}
+
+.single-book a {
+  font-weight: bold;
+}
+
+.single-book a:link {
+  color: #fe0000;
+}
+
+.single-book a:visited {
+  color: #fe0000;
+}
+
+.single-book a:hover {
+  color: #00aeed;
+}
+
+.single-book a:active {
+  color: #00aeed;
+}

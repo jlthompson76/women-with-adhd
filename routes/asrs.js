@@ -29,6 +29,7 @@ router.use(body_parser.urlencoded({ extended: true }));
 
 // Configures database
 let db_handler;
+
 // Database environment variables (stored in .env file)
 const DB_URL = process.env.DB_URL;
 const DB_NAME = process.env.DB_NAME;
@@ -116,7 +117,7 @@ router.post('/submit', (req, res) => {
     if (err) {
       console.log(err);
     } else {
-      console.log(`Form data added to ${DB_NAME}.${ASRS_COLLECTION}`);
+      console.log(`Form data added to ${DB_NAME}.${COLLECTION_NAME}`);
       // Redirects to ASRS Results page
       res.redirect('results');
       console.log('Redirecting to ASRS Results page');
@@ -149,7 +150,7 @@ mongo_client.connect(DB_URL, { useNewUrlParser: true, useUnifiedTopology: true }
   if (err) {
     console.log(`Error: ${err}`);
   } else {
-    console.log(`Connected to ${DB_NAME} database, ${COLLECTION_NAME} collection`);
+    console.log(`Connected to ${DB_NAME}.${COLLECTION_NAME}`);
     db_handler = db_client.db(DB_NAME);
   };
 });

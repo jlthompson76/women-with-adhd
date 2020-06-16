@@ -1,4 +1,4 @@
-// Page Routes
+// Routes Index - Page Routes
 
 // --------------- Node Modules ---------------
 
@@ -41,25 +41,25 @@ router.get('/treatments', (req, res) => {
   res.render('pages/treatments');
 });
 
-// Psychotherapy & Coaching
+// Treatments - Psychotherapy & Coaching
 router.get('/treatments/therapy-coaching', (req, res) => {
   console.log('Psychotherapy & Coaching page requested');
   res.render('pages/treatments/therapy-coaching');
 });
 
-// Medication
+// Treatments - Medication
 router.get('/treatments/medication', (req, res) => {
   console.log('Medication page requested');
   res.render('pages/treatments/medication');
 });
 
-// Natural & Holistic Therapies
+// Treatments - Natural & Holistic Therapies
 router.get('/treatments/natural-holistic', (req, res) => {
   console.log('Natural & Holistic Therapies page requested');
   res.render('pages/treatments/natural-holistic');
 });
 
-// Mindfulness
+// Treatments - Mindfulness
 router.get('/mindfulness', (req, res) => {
   console.log('Mindfulness page requested');
   res.render('pages/mindfulness');
@@ -75,6 +75,42 @@ router.get('/humor', (req, res) => {
 router.get('/resources', (req, res) => {
   console.log('Resources page requested');
   res.render('pages/resources');
+});
+
+// Resources - Professional Organizations
+router.get('/resources/professional-organizations', (req, res) => {
+  console.log('Professional Organizations page requested');
+  res.render('pages/resources/organizations');
+});
+
+// Resources - Websites
+router.get('/resources/websites', (req, res) => {
+  console.log('Websites page requested');
+  res.render('pages/resources/websites');
+});
+
+// Resources - Books
+router.get('/resources/books', (req, res) => {
+  console.log('Books page requested');
+  res.render('pages/resources/books');
+});
+
+// Resources - Podcasts
+router.get('/resources/podcasts', (req, res) => {
+  console.log('Podcasts page requested');
+  res.render('pages/resources/podcasts');
+});
+
+// Resources - YouTube
+router.get('/resources/youtube', (req, res) => {
+  console.log('YouTube page requested');
+  res.render('pages/resources/youtube');
+});
+
+// Resources - Social Media
+router.get('/resources/social-media', (req, res) => {
+  console.log('Social Media page requested');
+  res.render('pages/resources/social-media');
 });
 
 // About Page
@@ -97,10 +133,10 @@ router.get('/time-management', (req, res) => {
   res.render('pages/topics/time-management');
 });
 
-// Procrastination
-router.get('/procrastination', (req, res) => {
-  console.log('Procrastination page requested');
-  res.render('pages/topics/procrastination');
+// Procrastination & Perfectionism
+router.get('/procrastination-perfectionism', (req, res) => {
+  console.log('Procrastination & Perfectionism page requested');
+  res.render('pages/topics/procrastination-perfectionism');
 });
 
 // Focus & Concentration
