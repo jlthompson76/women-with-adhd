@@ -1,3 +1,11 @@
+:root {
+  --primary-color: #fe0000;
+  --secondary-color: #00aeed;
+  --accent-color-1: #ffec3a;
+  --accent-color-2: #c4a998;
+  --accent-color-3: #ffc989;
+}
+
 .books-container {
   display: flex;
   flex-flow: row wrap;
@@ -30,17 +38,17 @@
 }
 
 .single-book a:link {
-  color: #fe0000;
+  color: var(--primary-color);
 }
 
 .single-book a:visited {
-  color: #fe0000;
+  color: var(--primary-color);
 }
 
 .single-book a:hover {
-  color: #00aeed;
+  color: var(--secondary-color);
 }
 
 .single-book a:active {
-  color: #00aeed;
+  color: var(--secondary-color);
 }

@@ -1,3 +1,11 @@
+:root {
+  --primary-color: #fe0000;
+  --secondary-color: #00aeed;
+  --accent-color-1: #ffec3a;
+  --accent-color-2: #c4a998;
+  --accent-color-3: #ffc989;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -5,7 +13,7 @@ nav {
 }
 
 .nav-home {
-  background-color: #fe0000;
+  background-color: var(--primary-color);
   padding: 15px 25px;
   flex: 1;
 }
@@ -19,15 +27,15 @@ nav {
 }
 
 .nav-home a:hover {
-  color: #ffec3a;
+  color: var(--accent-color-1);
 }
 
 .nav-home a:active {
-  color: #ffc989;
+  color: var(--accent-color-3);
 }
 
 .nav-other {
-  background-color: #00aeed;
+  background-color: var(--secondary-color);
   padding: 15px;
   display: flex;
   justify-content: space-around;
@@ -44,9 +52,9 @@ nav {
 }
 
 .nav-other a:hover {
-  color: #ffec3a;
+  color: var(--accent-color-1);
 }
 
 .nav-other a:active {
-  color: #fe0000;
+  color: var(--primary-color);
 }
